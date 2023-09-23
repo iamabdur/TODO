@@ -1,0 +1,33 @@
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-radius: 30px solid white;
+
+
+color: rgb(11, 11, 42);
+box-sizing:content-box;
+background-color: rgb(81, 166, 176);
+width: 500px;
+height: 200px;
+margin: 10px;
+margin-left: 60px;
+font-size: large;
+}
+input[type="text"]{
+    border-radius: 50px solid rgb(11, 0, 128);
+    outline: none;
+    border: 20px;
+    font-size: large;
+    color: rgb(230, 12, 12);
+    background-color: blue;
+    height: 30px;
+    
+
+}
+
+button[type="submit"]{
+    border-radius: 20px solid red;
+}
+
